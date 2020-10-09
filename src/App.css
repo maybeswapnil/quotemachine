@@ -1,5 +1,77 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+.Box {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  width: 750px;
+  height: 400px;
+  border: 1px solid white; 
+  box-sizing: border-box;
+  background-color: white;  
+  margin: 150px auto;
+  transition-delay: 2s;
+}
+
+#quote {
+  font-size: 30px;
+  color: black;
+  font-size: 40px;
+  background-color: white; 
+  margin: 100px 25px auto;
+  font-weight: 500;
+  transition-duration: 0.8s;
+}
+
+#tag {
+  font-size: 60px;
+  color: black;
+  background-color: white; 
+  margin: 10px 10px 0px 26px;
+  position: absolute;
+  transition-duration: 0.8s;
+}
+
+h1 {
+  padding-top: 0px;
+  font-size: 20px;
+  color: white;
+  display: grid;
+  justify-content: center;
+}
+
+#getNew {
+  background-color:white;
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  right:    17px;
+  bottom:   17px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: white;
+}
+
+#getNew:hover{
+  opacity: 0.6;
+   
+  transition-duration: 0.5s;
+}
+
+#writer {
+  background-color:white;
+  color: #5F4B8BFF;
+  position: absolute;
+  right:    115px;
+  bottom:   120px;
+  color: black;
+  font-size: 20px;
 }
 
 .App-logo {
