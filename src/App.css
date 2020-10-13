@@ -74,6 +74,11 @@ h1 {
   font-size: 20px;
 }
 
+#footer {
+  height: 90px;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

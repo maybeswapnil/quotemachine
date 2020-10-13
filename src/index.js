@@ -39,13 +39,16 @@ class Controller extends React.Component {
     }
 
     render() { 
+        App()
         return (
             <div className="Main" style={this.state}>
+                <p>hjgjh</p>
                 <div className="Box">
                     <p id="tag" style={{color: this.state.color}}>»</p>
                     <p id="quote" style={{color: this.state.color}}><App /></p>
                     <button id="getNew" style={{color: this.state.backgroundColor}} onClick={this.reload}>New Quote</button>
                 </div>
+                <p id="footer">by chemotharepy</p>
             </div>
         );
     }
